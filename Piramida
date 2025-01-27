@@ -1,0 +1,22 @@
+from turtle import *
+
+def cegielka(bok):
+    for i in range(4):
+        fd(bok)
+        rt(90)
+
+
+bok = 40
+
+
+lt(90)
+for w in range(4):
+    for k in range(4-w):
+        cegielka(bok)
+        rt(90)
+        fd(bok)
+        lt(90)
+    fd(bok)
+    lt(90)
+    fd(bok*(4-w))
+    rt(90)
