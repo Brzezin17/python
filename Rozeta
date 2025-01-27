@@ -1,0 +1,13 @@
+from turtle import *
+
+#rozeta
+
+
+pencolor("red")
+pensize(10)
+
+for i in range(8):
+    for i in range(4):
+        fd(100)
+        rt(90)
+    rt(45)
