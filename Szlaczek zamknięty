@@ -1,0 +1,10 @@
+from turtle import *
+
+#szlaczek zamkniety
+
+for j in range(6):
+    for i in range (4):
+        lt(45); fd(40);
+        rt(90); fd(40);
+        lt(45)  
+    rt(90)
