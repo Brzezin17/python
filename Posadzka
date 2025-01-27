@@ -1,0 +1,26 @@
+from turtle import *
+
+#poszadzka
+
+def cegielka(bok):
+    for i in range(4):
+        fd(bok)
+        rt(90)
+
+
+
+bok = 40  #zmienna przechowująca dł.boku
+
+lt(90)   #ustawienie żółwia na północ
+
+for w in range(3):         # warstwy
+
+    for k in range(4):   #pojedyńcza warstwa
+        cegielka(bok)
+        rt(90)          #przesuniencie do kolejnej ciegiełki
+        fd(bok)
+        lt(90)
+    fd(bok)             # przesuniencie do koloejnej warstwy
+    lt(90)
+    fd(bok*4)
+    rt(90)
