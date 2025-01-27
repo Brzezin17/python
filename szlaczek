@@ -1,0 +1,9 @@
+from turtle import*
+
+#szlaczek
+
+
+for i in range(5):
+    lt(45); fd(40);
+    rt(90); fd(40);
+    lt(45)
